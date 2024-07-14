@@ -255,6 +255,28 @@ footer small {
 
 /* ========= responsive style start =========== */
 
+@media screen and (min-width:993px) and (max-width:1400px) {
+  #banner > .container > .banner_text {
+    width: 100%;
+}
+  #team > .container {
+    gap: 4.5rem;
+    flex-direction: column;
+  }
+  #feature > .container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .feature_text {
+	text-align: center;
+}
+#team > .container .feature_text h2 {
+  margin: 0 auto;
+}
+#team > .container .feature_text p {
+	margin: 24px auto 32px;
+}
+}
 @media screen and (min-width:577px) and (max-width:992px) {
    nav > .container {
 	gap: 10px;
@@ -281,11 +303,7 @@ footer small {
     text-align: center;
   }
   #feature > .container {
-    display: flex;
-    gap: 16px;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
   }
   #feature > .container h2 {
     width: 100%;
